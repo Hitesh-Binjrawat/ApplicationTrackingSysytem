@@ -8,8 +8,8 @@ from google import genai
 
 # DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_KEY")
   # Example endpoint
-# key=os.getenv("GOOGLE_API_KEY")
-key="AIzaSyDiWeJ91ussCLR6mV7THyWAodMUFkXvUXY"
+key=os.getenv("GOOGLE_API_KEY")
+# key="AIzaSyDiWeJ91ussCLR6mV7THyWAodMUFkXvUXY" # I had disabled this key so no need to
 # print(key)
 client= genai.Client(api_key=key)
 
