@@ -1,0 +1,4 @@
+.env
+ats_scorer/__pycache__
+venv
+frontend/node_modules
