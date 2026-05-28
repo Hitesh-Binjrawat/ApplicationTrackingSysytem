@@ -132,7 +132,7 @@ export default function ATSScorerPage() {
       formData.append("jd_text", jobDescription);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/ats-scorer",
+        "https://api.anvi.website/ats-scorer",
         formData,
         {
           headers: {
