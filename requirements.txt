@@ -1,0 +1,10 @@
+pdfplumber==0.11.9
+streamlit
+google-generativeai
+dotenv
+pdf2image
+openai
+google-genai
+fastapi
+uvicorn
+python-multipart
